@@ -3,20 +3,21 @@ body {
 }
 
 p {
-    color: blue;
+    color: rgb(96, 21, 146);
     position: relative;
 }
 p::before {
-    color: rgba(76, 50, 132, 0.322);
+    background-color: rgba(57, 21, 136, 0.219);
     width: 30px;
     height: 30px;
-    content: '\2744';
+    border-radius: 50%;
+    content: '';
+    /* content: '\2706'; */
     /* zoom: 5%; */
     display: block;
-    font-size: 4em;
     position: absolute;
-    top: 1rem;
-    left: 50%;
+    top: 20%;
+    left: 40%;
 
 }
 
@@ -34,4 +35,8 @@ li::first-letter {
 
 Створити список з 8 елементів, першу літеру кожного елеиенту списку зробити іншим шрифтом, іншим кольором і фоновому кольорі.
 
+*/
+
+/* 
+Cтворити напівпрозорий кружечок посередині параграфу під текстом
 */
