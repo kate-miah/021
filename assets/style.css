@@ -9,22 +9,17 @@ p {
 p::before, p::after {
     color: red;
     /* font-size: 3em; */
-    background-color: rgba(173, 216, 230, 0.459);
+    
     width: 30px;
     height: 30px;
-    content: url('/assets/Star.png');
-    display: inline-block;
-    position: absolute;
-}
-p::before {
-    top: -1em;
-    left: 0;
+    content: ''; 
+    background-image: url(/assets/star.svg);
+    display: block;
+    font-size: 1em;
+    background-size: contain;
+
 }
 
-p::after {
-    bottom:0;
-    right: 8rem;
-}
 /* p::first-line {
     background-color: lightpink;
 }
