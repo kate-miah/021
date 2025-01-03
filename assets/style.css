@@ -6,12 +6,18 @@ p {
     color: blue;
 }
 
-p::before, p::after {
-    color: red;
-    font-size: 3em;
-    background-color: lightblue;
-    width: 30px;
-    height: 30px;
-    content: '';
-    display: inline-block;
+p::first-line {
+    background-color: lightpink;
 }
+
+li::first-letter {
+    color: red;
+    font-size: serif;
+    background-color: lightgreen;
+}
+
+/* Створити темплейт сторінки з кількома параграфами, кожен перший рядок параграіу виділити фоновим кольором.
+
+Створити список з 8 елементів, першу літеру кожного елеиенту списку зробити іншим шрифтом, іншим кольором і фоновому кольорі.
+
+*/
