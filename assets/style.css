@@ -1,0 +1,42 @@
+.nav-container {
+    color: white;
+    font-family: sans-serif;
+    font-size: 0;
+}
+/* .nav-list {
+    background-color: rgb(245, 75, 21);
+} */
+
+.list-item {
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px 15px;
+    background-color: rgb(245, 75, 21);
+    font-size: 1rem;
+    position: relative;
+}
+
+.list-item:hover {
+    background-color: rgb(143, 58, 28);
+    cursor: pointer;
+}
+
+.sub-list {
+    position: absolute;
+    display: none;
+    left: 0;
+    /* display: block; */
+    background-color: rgb(245, 75, 21);
+    top: 100%;
+}
+
+
+.sub-list-item {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.list-item:hover .sub-list{
+    display: block;
+}
+ 
