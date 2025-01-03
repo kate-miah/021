@@ -6,17 +6,17 @@ p {
     color: blue;
     position: relative;
 }
-p::before, p::after {
-    color: red;
-    /* font-size: 3em; */
-    
+p::before {
+    color: rgba(76, 50, 132, 0.322);
     width: 30px;
     height: 30px;
-    content: ''; 
-    background-image: url(/assets/star.svg);
+    content: '\2744';
+    /* zoom: 5%; */
     display: block;
-    font-size: 1em;
-    background-size: contain;
+    font-size: 4em;
+    position: absolute;
+    top: 1rem;
+    left: 50%;
 
 }
 
