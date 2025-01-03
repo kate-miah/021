@@ -45,7 +45,11 @@
     top: 0;
     background-color: rgb(245, 75, 21);
     left: 100%;
+    
 }
 .list-item:hover > .sub-sub-list{
     display: block;
+}
+.other {
+    white-space: nowrap;
 }
